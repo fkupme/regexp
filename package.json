@@ -1,0 +1,39 @@
+{
+  "name": "regexp",
+  "version": "1.0.0",
+  "description": "hw regexp",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fkupme/regexp.git"
+  },
+  "author": "fkupme",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fkupme/regexp/issues"
+  },
+  "homepage": "https://github.com/fkupme/regexp#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.25.6",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "@eslint/js": "^9.11.1",
+    "babel-jest": "^29.7.0",
+    "babel-loader": "^9.2.1",
+    "eslint": "^9.11.1",
+    "eslint-plugin-jest": "^28.8.3",
+    "globals": "^15.9.0",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.0",
+    "jest": "^29.7.0",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  },
+  "dependencies": {
+    "core-js": "^3.38.1"
+  }
+}
