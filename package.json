@@ -4,7 +4,12 @@
   "description": "hw regexp",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "start": "webpack serve --mode development",
+		"build": "webpack --mode production",
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix",
+		"test": "jest",
+		"coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
