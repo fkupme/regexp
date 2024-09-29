@@ -18,6 +18,5 @@ const arr = [
 ]
 
 test.each(arr)('testing valid and invalid usernames', (username, expected)=>{
-	console.log(username)
 	expect(instances.validator.validateUsername(username).status).toBe(expected)
 })
