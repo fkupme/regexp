@@ -1,6 +1,6 @@
-class Redactor{
+export default class Redactor{
 	redactPhone(number){
-		this.cleanNonDigits(this.firstSymbol(number));
+		return this.cleanNonDigits(this.redactFirstSymbol(number));
 	}
 
 	redactFirstSymbol(number){
@@ -19,6 +19,3 @@ class Redactor{
 		return number.replace(regexp, '')
 	}
 }
-
-const redactor = new Redactor();
-export default redactor
